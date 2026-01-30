@@ -32,11 +32,10 @@ public class ModItems {
     return item;
   }
 
-  public static Block registerBlockItem(String name, Block block) {
+  public static Item registerBlockItem(String name, Block block) {
     final var key = ResourceKeyUtils.keyOfItem(name);
     final var blockItem = new BlockItem(block, new Item.Properties().setId(key).useBlockDescriptionPrefix());
-    Registry.register(BuiltInRegistries.ITEM, key, blockItem);
-    return block;
+    return Registry.register(BuiltInRegistries.ITEM, key, blockItem);
   }
 
   public static void initialize() {

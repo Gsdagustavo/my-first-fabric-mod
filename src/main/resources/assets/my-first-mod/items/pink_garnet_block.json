@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "my-first-mod:item/pink_garnet_block"
+    "model": "my-first-mod:block/pink_garnet_block"
   }
 }
