@@ -42,11 +42,10 @@ public class ModItems {
     MyFirstMod.LOGGER.info("Registering Mod Items for " + MyFirstMod.MOD_ID);
 
     // Add all items to creative mode tab
-    ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(
-        entries -> {
-          entries.accept(ModItems.PINK_GARNET);
-          entries.accept(ModItems.RAW_PINK_GARNET);
-        });
+    ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
+      entries.accept(ModItems.PINK_GARNET);
+      entries.accept(ModItems.RAW_PINK_GARNET);
+    });
 
     // Make the item compostable
     CompostingChanceRegistry.INSTANCE.add(ModItems.PINK_GARNET, 0.3F);
