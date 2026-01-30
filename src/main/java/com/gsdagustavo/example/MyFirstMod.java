@@ -1,5 +1,6 @@
 package com.gsdagustavo.example;
 
+import com.gsdagustavo.example.block.ModBlocks;
 import com.gsdagustavo.example.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class MyFirstMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }
