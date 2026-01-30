@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "my-first-mod:item/pink_garnet"
+  }
+}

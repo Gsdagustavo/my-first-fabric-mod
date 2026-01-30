@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "my-first-mod:item/pink_garnet"
+  }
+}
