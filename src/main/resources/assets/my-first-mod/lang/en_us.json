@@ -4,6 +4,8 @@
 
   "block.my-first-mod.pink_garnet_block": "Pink Garnet Block",
   "block.my-first-mod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.my-first-mod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.my-first-mod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
 
   "itemGroup.my-first-mod.pink_garnet_items": "Garden of Glass Items",
   "itemGroup.my-first-mod.pink_garnet_blocks": "Garden of Glass Blocks"

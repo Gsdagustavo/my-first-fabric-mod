@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "my-first-mod:raw_pink_garnet_block",
+    "my-first-mod:pink_garnet_block",
+    "my-first-mod:pink_garnet_ore",
+    "my-first-mod:deepslate_pink_garnet_ore"
+  ]
+}
