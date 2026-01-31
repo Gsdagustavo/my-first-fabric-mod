@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "my-first-mod:pink_garnet"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "ingredients": [
+    "my-first-mod:pink_garnet"
+  ],
+  "result": {
+    "id": "my-first-mod:pink_garnet_block",
+    "count": 1
+  }
+}
